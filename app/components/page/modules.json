@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_modules",
+  "info": {
+    "name": "modules",
+    "icon": "th-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card",
+      "required": true,
+      "min": 2
+    }
+  }
+}
