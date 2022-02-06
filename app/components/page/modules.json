@@ -2,8 +2,7 @@
   "collectionName": "components_page_modules",
   "info": {
     "name": "modules",
-    "icon": "th-list",
-    "description": ""
+    "icon": "newspaper"
   },
   "options": {},
   "attributes": {
@@ -11,12 +10,13 @@
       "type": "string",
       "required": true
     },
-    "modules": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.card",
-      "required": true,
-      "min": 2
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

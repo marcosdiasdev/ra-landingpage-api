@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_section_reviews",
+  "collectionName": "components_page_section_modules",
   "info": {
-    "name": "sectionReviews",
-    "icon": "star"
+    "name": "sectionModules",
+    "icon": "atlas"
   },
   "options": {},
   "attributes": {
@@ -10,12 +10,12 @@
       "type": "string",
       "required": true
     },
-    "reviews": {
+    "modules": {
       "type": "component",
       "repeatable": true,
-      "component": "page.reviews",
+      "component": "page.modules",
       "required": true,
-      "min": 4
+      "min": 2
     }
   }
 }

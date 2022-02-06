@@ -2,19 +2,13 @@
   "collectionName": "components_page_concepts",
   "info": {
     "name": "concepts",
-    "icon": "list",
-    "description": ""
+    "icon": "align-center"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
       "required": true
-    },
-    "concepts": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.list"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_items",
+  "collectionName": "components_page_tech_icons",
   "info": {
-    "name": "item",
-    "icon": "archive"
+    "name": "techIcons",
+    "icon": "tools"
   },
   "options": {},
   "attributes": {
@@ -13,8 +13,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": true
     },
     "title": {
       "type": "string",

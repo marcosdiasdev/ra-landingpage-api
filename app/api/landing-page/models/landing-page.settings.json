@@ -2,15 +2,12 @@
   "kind": "singleType",
   "collectionName": "landing_pages",
   "info": {
-    "name": "landingPage",
-    "description": ""
+    "name": "landingPage"
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
-  "pluginOptions": {},
   "attributes": {
     "logo": {
       "model": "file",
@@ -19,8 +16,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": true
     },
     "header": {
       "type": "component",
@@ -30,23 +26,22 @@
     "sectionAboutProject": {
       "type": "component",
       "repeatable": false,
-      "component": "page.about",
-      "required": false
+      "component": "page.section-about-project"
     },
     "sectionTech": {
       "type": "component",
       "repeatable": false,
-      "component": "page.tech"
+      "component": "page.section-tech"
     },
     "sectionConcepts": {
       "type": "component",
       "repeatable": false,
-      "component": "page.concepts"
+      "component": "page.section-concepts"
     },
     "sectionModules": {
       "type": "component",
       "repeatable": false,
-      "component": "page.modules",
+      "component": "page.section-modules",
       "required": true
     },
     "sectionAgenda": {
@@ -67,14 +62,12 @@
     "sectionReviews": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-reviews",
-      "required": true
+      "component": "page.section-reviews"
     },
     "sectionFaq": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-faq",
-      "required": true
+      "component": "page.section-faq"
     }
   }
 }

@@ -7,16 +7,16 @@
   "options": {},
   "attributes": {
     "totalPrice": {
-      "type": "decimal",
+      "type": "integer",
       "required": true,
       "default": 415
     },
-    "installmentsNumber": {
-      "type": "biginteger",
+    "numberInstallments": {
+      "type": "integer",
       "required": true
     },
-    "installmentPrice": {
-      "type": "decimal",
+    "priceInstallment": {
+      "type": "integer",
       "required": true
     },
     "benefits": {
